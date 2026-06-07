@@ -27,7 +27,7 @@ export function SiteHeader() {
           href="/"
           className="font-display text-xl tracking-tight text-foreground sm:text-2xl"
         >
-          Malak Attard
+          Malak Attared
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
