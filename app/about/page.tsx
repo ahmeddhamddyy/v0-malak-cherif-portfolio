@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react"
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Layla Hassan is an Egyptian content creator and lecturer at the British University in Egypt, telling immersive travel stories from Sinai, Al Minya, Aswan, Luxor, and Greece.",
+    "Malak Attared is a content creator working at The British University in Egypt, telling immersive travel stories from Qina, South Sinai, Luxor, Aswan, and Greece.",
 }
 
 const values = [
@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-[var(--shadow-soft)]">
             <Image
               src="/images/portrait.png"
-              alt="Portrait of Layla Hassan"
+              alt="Portrait of Malak Attared"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"
               className="object-cover"
@@ -45,22 +45,21 @@ export default function AboutPage() {
             About me
           </p>
           <h1 className="mt-4 text-balance font-display text-4xl leading-tight text-foreground sm:text-5xl">
-            A storyteller with sand in her shoes
+            About me
           </h1>
 
           <div className="mt-6 space-y-5 text-pretty leading-relaxed text-muted-foreground">
             <p>
-              I&apos;m Layla — an Egyptian content creator and a lecturer at the
-              British University in Egypt. By day I teach; by every free weekend
-              and holiday I disappear down a desert road or onto a felucca with
-              a camera and a notebook.
+              I&apos;m Malak — a content creator working at The British
+              University in Egypt. By day I teach; by every free weekend and
+              holiday I disappear down a desert road or onto the Nile with a
+              camera and a notebook.
             </p>
             <p>
-              My storytelling lives where Egypt is at its most beautiful and
-              most overlooked: the granite stillness of Sinai, the ancient tombs
-              of Al Minya, the painted villages of Aswan, the towering temples
-              of Luxor — and, every now and then, the blue-and-white escape of
-              the Greek islands.
+              My storytelling lives where Egypt is at its most beautiful: the
+              granite peaks of South Sinai, the date palms of Qina, the ancient
+              temples of Luxor, the painted villages of Aswan — and, every now
+              and then, the blue-and-white escape of the Greek islands.
             </p>
             <p>
               I believe travel writing should feel like a letter from a friend,
@@ -100,6 +99,45 @@ export default function AboutPage() {
             >
               Get in touch
             </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Behind the Lens */}
+      <div className="mt-20 border-t border-border/60 pt-20 sm:mt-28 sm:pt-28">
+        <p className="text-xs uppercase tracking-[0.25em] text-primary">
+          Behind the lens
+        </p>
+        <h2 className="mt-4 text-balance font-display text-3xl leading-tight text-foreground sm:text-4xl">
+          How I work
+        </h2>
+
+        <div className="mt-12 grid gap-8 sm:grid-cols-3">
+          <div className="rounded-xl border border-border/70 bg-card p-8">
+            <h3 className="font-display text-xl text-foreground">
+              Camera & Gear
+            </h3>
+            <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
+              Placeholder text for camera and gear setup. Malak will fill this in with details about the equipment and tools she uses to capture her travel stories.
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-border/70 bg-card p-8">
+            <h3 className="font-display text-xl text-foreground">
+              Editing Style
+            </h3>
+            <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
+              Placeholder text for editing approach. Malak will describe her editing style, color grading philosophy, and how she maintains visual consistency across journeys.
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-border/70 bg-card p-8">
+            <h3 className="font-display text-xl text-foreground">
+              What Inspires Her
+            </h3>
+            <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
+              Placeholder text for inspiration sources. Malak will share what moves her creatively, the moments that make her reach for the camera, and the stories that matter most.
+            </p>
           </div>
         </div>
       </div>

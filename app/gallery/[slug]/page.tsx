@@ -27,7 +27,7 @@ export async function generateMetadata({
     title: `${destination.name} — ${destination.tagline}`,
     description: destination.intro,
     openGraph: {
-      title: `${destination.name} — Layla Hassan`,
+      title: `${destination.name} — Malak Attared`,
       description: destination.intro,
       images: [{ url: destination.cover }],
     },
@@ -84,6 +84,15 @@ export default async function JourneyPage({
         <p className="text-pretty font-display text-2xl leading-relaxed text-foreground sm:text-3xl">
           {destination.intro}
         </p>
+      </section>
+
+      {/* Featured quote */}
+      <section className="border-y border-border/60 bg-sand/30 px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="font-display text-3xl leading-relaxed text-foreground italic sm:text-4xl">
+            "{destination.quote}"
+          </p>
+        </div>
       </section>
 
       {/* Story scroll */}

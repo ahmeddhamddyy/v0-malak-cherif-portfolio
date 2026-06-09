@@ -45,7 +45,7 @@ export function JourneyGallery({ photos }: { photos: Photo[] }) {
             <button
               type="button"
               onClick={() => setOpenIndex(i)}
-              className="block w-full cursor-zoom-in overflow-hidden rounded-xl shadow-[var(--shadow-soft)]"
+              className="relative block w-full cursor-zoom-in overflow-hidden rounded-xl shadow-[var(--shadow-soft)]"
               aria-label={`Open photo ${i + 1} in lightbox`}
             >
               <Image
@@ -57,6 +57,9 @@ export function JourneyGallery({ photos }: { photos: Photo[] }) {
                 sizes="(max-width: 768px) 100vw, 768px"
                 className="max-h-[88vh] w-full object-cover"
               />
+              <div className="absolute bottom-4 left-4 bg-black/30 px-3 py-2 rounded font-mono text-xs text-warm-white/90 backdrop-blur-sm">
+                {photo.date}
+              </div>
             </button>
             <figcaption className="mx-auto mt-6 flex max-w-2xl gap-5 px-1">
               <span className="font-mono text-sm tabular-nums text-primary">

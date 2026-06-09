@@ -11,25 +11,25 @@ export default function HomePage() {
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="order-2 lg:order-1">
             <p className="text-xs uppercase tracking-[0.25em] text-primary">
-              Egyptian travel storyteller
+              Storyteller · BUE
             </p>
             <h1 className="mt-5 text-balance font-display text-5xl leading-[1.05] text-foreground sm:text-6xl lg:text-7xl">
-              Layla Hassan
+              Malak Attared
             </h1>
             <p className="mt-5 text-pretty font-display text-2xl text-muted-foreground sm:text-3xl">
-              Stories from Sinai to Santorini.
+              Content creator chasing light from Qina to Greece.
             </p>
             <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
-              I&apos;m a content creator and lecturer at the British University
-              in Egypt, wandering from desert mountains to Aegean shores and
-              writing it all down — one golden hour at a time.
+              Working at The British University in Egypt, wandering from desert
+              mountains to Aegean shores and writing it all down — one golden
+              hour at a time.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
                 href="/gallery"
                 className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
               >
-                Explore journeys
+                Explore my journeys
                 <ArrowRight className="size-4" />
               </Link>
               <Link

@@ -44,6 +44,9 @@ export default function GalleryIndexPage() {
                 {d.name}
               </h2>
               <p className="mt-1 text-sm text-muted-foreground">{d.tagline}</p>
+              <p className="mt-3 text-xs text-primary font-mono">
+                {d.photos.length} photo{d.photos.length !== 1 ? 's' : ''}
+              </p>
             </div>
           </Link>
         ))}
