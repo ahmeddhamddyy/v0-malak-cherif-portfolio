@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "travel": "Travel",
+    "contact": "Contact"
+  },
+  "home": {
+    "label": "Storyteller · BUE",
+    "name": "Malak Attared",
+    "subtitle": "Content creator chasing light from Qina to Greece.",
+    "description": "Working at The British University in Egypt, wandering from desert mountains to Aegean shores and writing it all down — one golden hour at a time.",
+    "cta": "Explore my journeys",
+    "aboutCta": "About me",
+    "featuredLabel": "Featured",
+    "featuredHeading": "Recent journeys",
+    "viewAll": "View all",
+    "portraitAlt": "Portrait of Malak Attared in warm golden light"
+  },
+  "about": {
+    "label": "About me",
+    "heading": "About me",
+    "bio1": "I'm Malak — a content creator working at The British University in Egypt. By day I teach; by every free weekend and holiday I disappear down a desert road or onto the Nile with a camera and a notebook.",
+    "bio2": "My storytelling lives where Egypt is at its most beautiful: the granite peaks of South Sinai, the date palms of Qina, the ancient temples of Luxor, the painted villages of Aswan — and, every now and then, the blue-and-white escape of the Greek islands.",
+    "bio3": "I believe travel writing should feel like a letter from a friend, not a brochure. So I write in first person, I keep the awkward moments in, and I always credit the people who made the journey worth telling.",
+    "portraitAlt": "Portrait of Malak Attared",
+    "value1Title": "Slow travel",
+    "value1Body": "I'd rather know one alley deeply than a whole city in passing. The best stories live in the lingering.",
+    "value2Title": "Honest storytelling",
+    "value2Body": "No filters on the truth. I write travel the way it actually feels — golden, messy, and human.",
+    "value3Title": "Local first",
+    "value3Body": "Every journey is shaped by the people who let me in: guides, grandmothers, farmers, and friends.",
+    "readJournals": "Read my journals",
+    "getInTouch": "Get in touch",
+    "behindLabel": "Behind the lens",
+    "behindHeading": "How I work",
+    "gearTitle": "Camera & Gear",
+    "gearBody": "Placeholder text for camera and gear setup. Malak will fill this in with details about the equipment and tools she uses to capture her travel stories.",
+    "editingTitle": "Editing Style",
+    "editingBody": "Placeholder text for editing approach. Malak will describe her editing style, color grading philosophy, and how she maintains visual consistency across journeys.",
+    "inspirationTitle": "What Inspires Her",
+    "inspirationBody": "Placeholder text for inspiration sources. Malak will share what moves her creatively, the moments that make her reach for the camera, and the stories that matter most."
+  },
+  "gallery": {
+    "label": "Travel journals",
+    "heading": "Every journey has a story",
+    "description": "{count} destinations, each told as a photo journal in my own voice.",
+    "photos": "{count} photos"
+  },
+  "journey": {
+    "allJourneys": "All journeys",
+    "nextJourney": "Next journey",
+    "continueReading": "Continue reading"
+  },
+  "contact": {
+    "label": "Say hello",
+    "heading": "Let's tell a story together",
+    "description": "Whether it's a collaboration, a speaking invitation, a tourism campaign, or simply a kind word about a journal that moved you — my inbox is always open.",
+    "instagramTravel": "Instagram — Travel",
+    "instagramLifestyle": "Instagram — Lifestyle",
+    "tiktok": "TikTok",
+    "youtube": "YouTube"
+  },
+  "contactForm": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your idea, collaboration, or just say hello…",
+    "submit": "Send message",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Your message is on its way. I read every note myself and I'll get back to you soon."
+  },
+  "footer": {
+    "tagline": "Stories from Qina to Greece.",
+    "copyright": "© {year} Malak Attared. Made with warm light."
+  }
+}

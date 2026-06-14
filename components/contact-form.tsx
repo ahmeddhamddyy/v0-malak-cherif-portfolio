@@ -2,9 +2,11 @@
 
 import { useState } from "react"
 import { Check } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false)
+  const t = useTranslations("contactForm")
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
@@ -18,11 +20,10 @@ export function ContactForm() {
           <Check className="size-6" />
         </div>
         <h2 className="mt-4 font-display text-2xl text-foreground">
-          Thank you!
+          {t("thankYou")}
         </h2>
         <p className="mt-2 text-pretty leading-relaxed text-muted-foreground">
-          Your message is on its way. I read every note myself and I&apos;ll get
-          back to you soon.
+          {t("thankYouMessage")}
         </p>
       </div>
     )
@@ -39,7 +40,7 @@ export function ContactForm() {
             htmlFor="name"
             className="block text-sm font-medium text-foreground"
           >
-            Name
+            {t("nameLabel")}
           </label>
           <input
             id="name"
@@ -47,7 +48,7 @@ export function ContactForm() {
             type="text"
             required
             className="mt-2 w-full rounded-lg border border-input bg-background px-4 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/20"
-            placeholder="Your name"
+            placeholder={t("namePlaceholder")}
           />
         </div>
         <div>
@@ -55,7 +56,7 @@ export function ContactForm() {
             htmlFor="email"
             className="block text-sm font-medium text-foreground"
           >
-            Email
+            {t("emailLabel")}
           </label>
           <input
             id="email"
@@ -63,7 +64,7 @@ export function ContactForm() {
             type="email"
             required
             className="mt-2 w-full rounded-lg border border-input bg-background px-4 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/20"
-            placeholder="you@example.com"
+            placeholder={t("emailPlaceholder")}
           />
         </div>
         <div>
@@ -71,7 +72,7 @@ export function ContactForm() {
             htmlFor="message"
             className="block text-sm font-medium text-foreground"
           >
-            Message
+            {t("messageLabel")}
           </label>
           <textarea
             id="message"
@@ -79,7 +80,7 @@ export function ContactForm() {
             required
             rows={5}
             className="mt-2 w-full resize-none rounded-lg border border-input bg-background px-4 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/20"
-            placeholder="Tell me about your idea, collaboration, or just say hello…"
+            placeholder={t("messagePlaceholder")}
           />
         </div>
       </div>
@@ -87,7 +88,7 @@ export function ContactForm() {
         type="submit"
         className="mt-6 w-full rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
       >
-        Send message
+        {t("submit")}
       </button>
     </form>
   )

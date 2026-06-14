@@ -8,6 +8,7 @@
   --font-display: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, monospace;
+  --font-arabic: var(--font-arabic), serif;
 
   --color-clay: var(--clay);
   --color-clay-foreground: var(--clay-foreground);
@@ -153,4 +154,16 @@
 
 @utility font-display {
   font-family: var(--font-display);
+}
+
+@utility font-arabic {
+  font-family: var(--font-arabic);
+}
+
+/* RTL layout adjustments */
+html[dir="rtl"] {
+  text-align: right;
+}
+html[dir="rtl"] .font-display {
+  font-family: var(--font-arabic);
 }
