@@ -34,8 +34,10 @@ export function SiteHeader() {
         <Link
           href="/"
           className="font-display text-xl tracking-tight text-foreground sm:text-2xl"
+          dir={locale === "ar" ? "rtl" : undefined}
+          lang={locale === "ar" ? "ar" : undefined}
         >
-          Malak Attared
+          {locale === "ar" ? "ملك عطارد" : "Malak Attared"}
         </Link>
 
         <div className="flex items-center gap-6">
